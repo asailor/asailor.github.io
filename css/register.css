@@ -1,0 +1,58 @@
+
+.top{ height:50px;
+	  width:100%;
+	  border:#333 1px solid;
+		}
+.top p{
+	padding:0; margin:0;
+	color:#F00;
+	font-size:24px;
+	line-height:50px; margin-left:20%;
+	}
+.center{
+	width:100%;
+	height:600px;
+	background-color:#F00; margin-top:0;}
+.register{
+	width:25%;
+	height:500px;
+	background-color:#FFF;
+	position:absolute;
+	top:100px; left:37%	}
+.register ul{
+	list-style-type:none; margin:0; padding:0;
+	height:100%}
+.register ul li{
+	height:10%;}
+.register ul li input{
+	width:90%;
+	height:30px;
+	border:#CCC 1px solid;
+	font-family:"微软雅黑";
+	font-size:20px;
+	margin-top:8px;
+	margin-left:5%;
+	}
+span{
+	list-style:none;
+	font-size:15px; margin-left:5%}
+.title {
+	font-size:25px;
+	text-align:center;
+	line-height:50px;}
+	a:link { 
+     color:red;
+text-decoration: none; 
+} 
+a:visited { 
+ color:green;
+text-decoration: none; 
+} 
+a:hover { 
+ color:red;
+text-decoration: none; 
+} 
+a:active { 
+ color:red;
+text-decoration: none; 
+} 

@@ -1,0 +1,113 @@
+.head{
+	height:25px;
+	width:100%;
+	background-color:#EEEEEE;}
+	.head_1{
+		width:60%;
+		height:30px;
+		margin-left:20%}
+		.head_11{
+			line-height:25px;
+			height:25px;
+			font-size:13px;
+			font-family:"微软雅黑 Light";
+			width:20%;
+			float:left;}
+		.head_12{line-height:25px;
+			height:25px;
+			font-size:13px;
+			font-family:"微软雅黑 Light";
+			width:80%;
+			float:right;}
+		
+		.head_12 ul { padding:0; margin:0; list-style-type:none;
+					  height:24px; float:right;
+					  width:28%;}
+		.head_12 ul li{ 
+		font-size:13px; 
+		float:left; 
+		margin-left:10px;
+		
+		}	  
+		 
+
+.search{
+	height:100px;
+	width:100%;
+	background-color:#F6F6F6;
+	border-bottom:#C60023 solid 2px;}
+	.search_input{
+		height:60px;
+		width:40%;
+		position:relative; top:10px; left:550px;
+		}
+		.query{ height:45px;
+				width:85%;
+				border:#C60023 1px solid;
+				position:relative; top:5px; float:left;}
+		.btn{ width:14%;
+			  height:48px;
+			  background-color:#C60023; float:left; font-size:20px;
+			  color:#FFF;position:relative; top:5px; float:left;
+			  border-style:none;}
+
+.Head1{
+	height:30px;
+	width:100%;
+	background-color:#EEEEEE;}
+
+.content{
+	height:800px;
+	width:100%;
+	background-color:#f6f6f6;}
+	.category{
+		width:60%; 
+		height:200px;
+		margin-left:20%;
+		}
+		.category1{
+			width:15%;
+			height:400px;  /*要跟.category2 div 高度相同*/		
+			float:left;
+			background-color:#f6f6f6;}
+			
+			.category1 ul{ list-style-type:none; margin:0; padding:0;}
+			.category1 ul li{ 
+				text-align:center;
+				height:30px;}
+		.category2 div{
+			width:100%;
+			height:400px;
+			
+			background-color:#fff;
+			display: none;}
+
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
