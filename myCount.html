@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="css/myCount.css" rel="stylesheet" type="text/css" media="all"/>
+ <script type="text/javascript">
+            window.onload = function(){
+var btns=document.getElementById("tab").getElementsByTagName("li");
+var divs = 
+document.getElementById("tabJs").getElementsByTagName("div");
+                for (var i=0;i<btns.length;i++) {
+                    //因为上面的button按钮与下面的div盒子是一一对应关系，所以我们用一个序列号index来控制
+                    //给每个btns[i]添加一个属性index
+                    btns[i].index = i;
+                    btns[i].onclick = function(){
+                        for (var j=0;j<btns.length;j++) {
+                            btns[j].className="";
+                        }
+                        // 先清空所有按钮的类名，再给当前的按钮添加一个类名  “置之死地而后生”
+                        this.className="fli";
+                        // 同理，首先隐藏所有的div盒子，再显示与button当前索引号相同的div盒子
+                        for (var k=0;k<divs.length;k++) {
+                              divs[k].style.display="none";
+                        }
+                        divs[this.index].style.display="block";
+                    }
+
+                }
+
+            }
+        </script>
+</head>
+
+<body>
+<div class="head">
+	<div class="head_1">
+    	<div class="head_11">欢迎
+        </div>
+        <div class="head_12">
+        	<ul>
+            	<li>购物车</li>
+                <li>我的订单</li>
+                <li>首页</li>
+                <li>关于</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="search">
+	<div style=" font-size:25px; position:absolute; top:55PX; left:390px; color:#C60023;">HOMESHOP</div>
+	<div class="search_input">
+    <input class="query" type="text" />
+     <input class="btn" type="button" value="搜索" />
+    </div>
+   
+</div>
+<div class="Head1"></div>
+<div class="content">
+	<div class="category">
+    	<div class="category1">
+        	<ul id="tab">
+            	<li class="fli">修改信息</li>
+                <li>我的订单</li>
+                <li>修改密码</li>
+                <li>关于账号</li>
+            </ul>
+        </div>
+        <div class="category2" id="tabJs">
+        	<div style="display:block;">1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
